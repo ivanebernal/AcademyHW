@@ -1,8 +1,8 @@
 var lines;
 var output = "";
 
-fs = require("fs");
-fs.readFile("B-large-practice.in", "utf-8", function(err, data){
+var fs = require("fs");
+fs.readFile("B-small-practice.in", "utf-8", function(err, data){
 	if (err){
 		return console.log(err);
 	}
