@@ -1,4 +1,4 @@
-textr = File.read! "A-small-practice.in"
+textr = File.read! "A-large-practice.in"
 lines = String.replace(textr,"(","[") |> String.replace(")","]") |> String.split("\n")
 
 params = Enum.fetch!(lines,0) |> String.split(" ")

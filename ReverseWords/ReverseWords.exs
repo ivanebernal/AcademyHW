@@ -1,4 +1,4 @@
-textr = File.read! "B-small-practice.in"
+textr = File.read! "B-large-practice.in"
 text = String.split(textr, "\n")
 n = String.to_integer(Enum.fetch!(text,0))
 sentences = Enum.slice(text,1,n) |> Enum.with_index
